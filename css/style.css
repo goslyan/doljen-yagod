@@ -33,11 +33,6 @@
     line-height: 20px;
     transition: all .3s;
 }
-.menu_button:hover {
-    color: blue;
-    filter: drop-shadow(0 0 20px blue);
-    font-size: medium;
-}
 .cart{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -57,9 +52,6 @@
     color: #FFFFFF;
     border:none;
     transition: all .3s;
-}
-.button--primary:hover {
-    transform: scale(1.05);
 }
 .best{
     padding: 5px 12px;
@@ -206,9 +198,6 @@
     border-radius: 10px;
     transition: all .3s;
 }
-.product_metka:hover {
-    transform: translateY(-20px);
-} 
 .product_metka_wide {
   max-width: 860px;
   height: 370px;
@@ -216,18 +205,12 @@
   padding: 35px 395px 60px 46px;
   transition: all .3s;
 }
-.product_metka_wide:hover {
-    transform: translateY(-20px);
-}
 .product_metka_small {
     max-width: 272px;
     height: 370px;
     margin-top: 30px;
     border-radius: 10px;
     transition: all .3s;
-}
-.product_metka_small:hover {
-    transform: translateY(-20px);
 }
 .fashion-month {
     background-image: url(../img/fashionmonth.png);
@@ -251,12 +234,6 @@
     padding: 10px 45px 10px 20px;
     transition: all .3s;
 }
-
-.button_view:hover {
-    background-color: pink;
-    transform: scale(1.05);
-}
-
 .micro_women{
     display: flex;
     flex-direction: column;
@@ -332,9 +309,6 @@
     height: 370px;
     transition: all .3s;
 }
-.product_card:hover {
-    transform: translateY(-20px) scale(1.1);
-}
 .product_price {
     color:#262D33;
     font-family: Lato;
@@ -365,9 +339,7 @@ footer{
     padding-right: 40px;
     transition: all .3s;
 }
-.footer_button:hover {
-    color: silver;
-}
+
 .footer_button:last-child {
     padding-right:0;
     margin-right: 230px;
@@ -423,9 +395,6 @@ footer{
 .social_img {
     transition: all .3s; 
 }
-.social_img:hover {
-    transform: scale(1.5);
-}
 .back_to_top .footer_button{
     margin-left: 683px;
     padding-top: 35px;
@@ -435,6 +404,36 @@ footer{
 .arrow_up{
     padding-top: 35px;
     padding-left: 15px;
+}
+.product_card:hover {
+    transform: translateY(-20px) scale(1.1);
+}
+.product_metka:hover {
+    transform: translateY(-20px);
+} 
+.product_metka_wide:hover {
+    transform: translateY(-20px);
+}
+.product_metka_small:hover {
+    transform: translateY(-20px);
+}
+.button_view:hover {
+    cursor: pointer;
+    background-color: pink;
+    transform: scale(1.05);
+}
+.footer_button:hover {
+    color: silver;
+}
+.social_img:hover {
+    transform: scale(1.5);
+}
+.menu_button:hover {
+    color: #4592FF;
+    font-size: medium;
+}
+.button--primary:hover {
+    transform: scale(1.05);
 }
 
 
